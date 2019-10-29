@@ -10,9 +10,13 @@ public class Car extends Vehicle{
 		this.carColor = carColor;
 		this.carShade = carShade;
 	}
-	public int getCarShade() {
+	public String getCarShade() {
 		return carShade;
 	}
+
+	public void setCarShade(String carShade) {
+		this.carShade = carShade;
+	}	
 
 	public String getNoOfDoors() {
 		return noOfDoors;
